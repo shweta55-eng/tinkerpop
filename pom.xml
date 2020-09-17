@@ -156,7 +156,7 @@ limitations under the License.
         <jcabi.version>1.1</jcabi.version>
         <log4j.version>1.2.17</log4j.version>
         <metrics.version>3.0.2</metrics.version>
-        <netty.version>4.1.49.Final</netty.version>
+        <netty.version>4.1.52.Final</netty.version>
         <slf4j.version>1.7.25</slf4j.version>
         <snakeyaml.version>1.15</snakeyaml.version>
         <spark.version>3.0.0</spark.version>
@@ -465,7 +465,7 @@ limitations under the License.
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>2.22.2</version>
+                    <version>3.0.0-M5</version>
                     <configuration>
                         <argLine>
                             -Dlog4j.configuration=${log4j-test.properties} -Dbuild.dir=${project.build.directory} -Dis.testing=true -Djava.net.preferIPv4Stack=true ${suresafeArgs}
